@@ -1,0 +1,35 @@
+{
+  "name": "@freddydrodev/auto-version",
+  "version": "0.0.1",
+  "description": "An auto version library for NPM",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "auto-version": "bin/auto-version.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup && npm publish --access public"
+  },
+  "keywords": [
+    "automatic",
+    "version",
+    "increment"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "auto-version-js": "0.1.2",
+    "jest": "^26.0.1",
+    "jsdoc-to-markdown": "^6.0.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "pkg-dir": "^4.2.0"
+  }
+}
