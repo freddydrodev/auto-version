@@ -1,6 +1,6 @@
 {
   "name": "@freddydrodev/auto-version",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An auto version library for NPM",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -27,6 +27,6 @@
     "typescript": "^5.4.4"
   },
   "dependencies": {
-    "pkg-dir": "^8.0.0"
+    "pkg-dir": "^4.2.0"
   }
 }

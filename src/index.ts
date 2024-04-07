@@ -66,8 +66,8 @@ export default class AutoVersion {
    * AutoVersion.getVersion()              // --> the version of the current project | ex : 0.5.2
    * AutoVersion.getVersion('../any/dir')  // --> the version of the project in this directory
    */
-  static getVersion(pathname: string) {
-    const packageJSON = AutoVersion.getPackageJSON(pathname);
+  static getVersion(pathname?: string) {
+    const packageJSON = AutoVersion.getPackageJSON(pathname ?? "");
 
     if (!packageJSON) throw Error("Unable to find the package.json");
 
