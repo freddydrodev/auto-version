@@ -23,13 +23,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.5",
-    "auto-version-js": "0.1.2",
-    "jest": "^26.0.1",
-    "jsdoc-to-markdown": "^6.0.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.4"
   },
   "dependencies": {
-    "pkg-dir": "^4.2.0"
+    "pkg-dir": "^8.0.0"
   }
 }
