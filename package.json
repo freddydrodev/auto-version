@@ -1,6 +1,6 @@
 {
   "name": "@freddydrodev/auto-version",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An auto version library for NPM",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
