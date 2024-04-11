@@ -52,8 +52,6 @@ export default class AutoVersion {
       "package.json"
     ));
 
-    console.log(packageJSON);
-
     // store the package.json file as JSON
     return packageJSON;
   }
